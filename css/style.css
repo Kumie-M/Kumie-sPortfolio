@@ -641,7 +641,7 @@ contact
 ===========================================*/
   .portfolio-items {
     width: 100%;
-    margin-left: 0;
+    justify-content: center;
   }
 
   .portfolio-item-left,
@@ -653,7 +653,7 @@ contact
   .portfolio-item-left img,
   .portfolio-item-right img {
     display: block;
-    width: 280px;
+    width: 300px;
     height: 150px;
     margin: auto;
   }
