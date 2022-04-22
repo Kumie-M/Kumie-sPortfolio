@@ -39,10 +39,6 @@ h2 {
   justify-content: space-between;
 }
 
-.wrap {
-  overflow: hidden;
-}
-
 /*==========================================
   header
 ===========================================*/
@@ -646,11 +642,7 @@ contact
 
   .wrapper {
     max-width: 290px;
-    margin: 0 auto 0 -10px;
-  }
-
-  .portfolio-items {
-    width: 100%;
+    margin: auto;
   }
 
   .portfolio-item-left,
@@ -662,15 +654,14 @@ contact
   .portfolio-item-left img,
   .portfolio-item-right img {
     display: block;
-    width: 300px;
+    width: 290px;
     height: 150px;
-    margin: auto;
   }
 
   .portfolio-item-left p,
   .portfolio-item-right p {
     font-size: 12px;
-    width: 300px;
+    width: 290px;
     margin: 10px auto;
   }
 
