@@ -652,7 +652,9 @@ contact
   .portfolio-item-left img,
   .portfolio-item-right img {
     display: block;
-    width: 300px;
+    width: 280px;
+    height: 150px;
+    margin: auto;
   }
 
   .portfolio-item-left p,
@@ -679,9 +681,8 @@ contact
   input[type="email"],
   textarea {
     display: block;
-    width: 300px;
+    width: 280px;
     margin: auto;
-    text-align: center;
   }
 
   .contact-item {
