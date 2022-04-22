@@ -631,10 +631,9 @@ contact
 
   .portfolio-item-left,
   .portfolio-item-right {
-    width: 100%;
-    max-width: 300px;
+    width: 350px;
+    margin: 0 auto 10px auto;
     text-align: center;
-    margin-bottom: 10px;
   }
 
   .portfolio-item-left p,
