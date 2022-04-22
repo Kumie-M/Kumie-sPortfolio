@@ -633,7 +633,7 @@ contact
   .portfolio-item-right {
     width: 100%;
     max-width: 300px;
-    text-align: centers;
+    text-align: center;
     margin-bottom: 10px;
   }
 
