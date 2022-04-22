@@ -1,332 +1,273 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Portfolio</title>
-
-  <!-- Bootstrap Core CSS -->
-  <link href="bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="simple-line-icons.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link href="stylish-portfolio.min.css" rel="stylesheet">
-  <link href="bootstrap-reboot.css" rel="stylesheet">
-  
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-</head>
-
-<body id="page-top">
-
-  <!-- Header -->
-  <header class="masthead d-flex">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1">Portfolio</h1>
-      <h3 class="mb-5">
-        <em>Kumie Miyata</em>
-      </h3>
-      <a class="btn btn-info btn-xl js-scroll-trigger" href="#profile">Who's Me!</a>
-    </div>
-    <div class="overlay"></div>
-  </header>
-
-  <section class="content-section bg-light text-secondary" id="profile">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <div class="content-section-heading">
-
-            <h3 class="text-secondary mb-0">Profile</h3>
-            <h2 class="mb-5 text-dark">自己紹介</h2>
-          </div>
-          <div class="row">
-            <div class="col-lg-4">
-              <span class="my-5 float-left">
-              <img src="kumie.png" alt="kumie-icon" class="icon-img">
-              </span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KumieMiyata Portfolio</title>
+    <link rel="icon" href="favicon.jpg" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta
+      name="description"
+      content="宮田久美江（みやたくみえ）のWEB製作のポートフォリオです。どうぞよろしくお願いいたします。"
+    />
+  </head>
+  <body>
+    <header class="fadein">
+        <div class="container">
+            <div class="nav_flex">
+            <div class="header-logo">
+            <img src="logo.jpg" alt="ロゴ" />
             </div>
-            <div class="col-lg-8">
-              <ul class="lead mb-5 text-dark text-left my-5" style="list-style:none;">
-                <li>名前： 宮田 久美江 -Kumie Miyata-</li>
-                <li>出身： 埼玉県</li>
-                <li>学歴： 埼玉県立越生高校卒業</li>
-                <li>職歴： 約10年間サービス業の一般事務を経験</li>
-                <li>職業訓練： HTML、CSS、Photoshop、Illustratorの学習を修了</li>
-                <li>通信講座：HTML5、CSS3、JavaScript、WordPress、Cakephp、Laravel、Gitの学習を修了</li>
-                <li>趣味： アロマ・ヨガ・アンチエイジング・ラブライブ！
-                </li>
-              </ul>
+        <div class="toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="gnav">
+          <ul class="nav_menu_ul">
+            <li class="nav_menu_li"><a href="#profile">Profile</a></li>
+            <li class="nav_menu_li"><a href="#works">Works</a></li>
+            <li class="nav_menu_li"><a href="#portfolio">Portfolio</a></li>
+            <li class="nav_menu_li"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    </header>
+
+    <section class="top fadein">
+        <div class="top-item">
+            <div class="top-img"></div>
+            <div class="top-box"></div>
+            <div class="top-title">
+                <h1>
+                    KumieMiyata<br />
+                    Portforio
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="profile" id="profile">
+      <div class="container">
+        <h2 class="profile-title">Profile</h2>
+        <p class="sub-title">自己紹介</p>
+        <div class="flex padding">
+          <div class="my-img">
+            <img src="kumie.JPG" alt="宮田久美江の画像" />
+          </div>
+          <div class="my-text">
+            <p>
+              名前： 宮田 久美江 -Kumie Miyata-<br />
+              出身： 埼玉県<br />
+              学歴： 埼玉県立越生高校卒業<br />
+              職歴： 約7年間サービス業の一般事務を経験<br />
+              職業訓練：
+              2015年・HTML、CSS、Photoshop、Illustratorの学習を修了<br />
+              通信講座：
+              2019年〜HTML5、CSS3、jQuery、WordPress、Gitの学習を修了<br />
+              趣味：
+              アロマ・ヨガ・アンチエイジング・ラブライブ！（ニジガク推し）<br />
+              職業訓練後、夜のお店を紹介するサイトを運営している会社へ就職。<br />
+              そちらでは、ヘッダーデザイン、求人バナーデザイン、ポスター、名刺デザイン<br />
+              などをやらせていただきました。<br />
+              1ヶ月で退職し、一度就職先が近くになくWEB製作やデザインを諦めました。<br />
+              2022年、もう一度WEB製作やデザインに携わりたい。<br />
+              そう強く思い、フリーランスを目指し学習を再開。<br />
+              WEB製作、WordPressの復習と新たな知識（デザインについての詳細など）<br />
+              をつけるため、日々努めております。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="works padding" id="works">
+      <div class="container">
+        <h2>Works</h2>
+        <p class="sub-title">できること</p>
+        <div class="flex padding">
+          <div class="works-item">
+            <div class="item-icon">
+              <img src="PC1.svg" class="pc-icon-1" alt="PCアイコン1" />
+            </div>
+            <div class="item-text">
+              <p>
+                ご要望に応じて、柔軟にご提案させていただきます。<br />
+                一緒に理想となるホームページの作成をしていきましょう！
+                レスポンシブ対応です。
+              </p>
             </div>
           </div>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#works">
-            Job Description</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services -->
-  <section class="content-section bg-primary text-white text-center" id="works">
-    <div class="container">
-      <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Works</h3>
-        <h2 class="mb-5">仕事内容</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 col-md-6 mb-6 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <img src="pc.png" alt="コーディング">
-          </span>
-          <h4>
-            <strong>Coding</strong>
-          </h4>
-          <p class="text-faded mb-0"></p>
-        </div>
-        <div class="col-lg-6 col-md-6 mb-6 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <img src="mobile.png" alt="レスポンシブデザイン">
-          </span>
-          <h4>
-            <strong>Responsive</strong>
-          </h4>
-        </div>
-      </div>
-      <a class="btn btn-info btn-xl js-scroll-trigger" href="#portfolio">portfolio</a>
-    </div>
-  </section>
-
-  <!-- Portfolio -->
-  <section class="content-section" id="portfolio">
-    <div class="container">
-      <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0">Portfolio</h3>
-        <h2 class="mb-5">Recent Projects</h2>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="jp.jpg" style="object-fit: cover;">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>通信講座のバーチャルプロジェクトにて</h2>
-                <p class="mb-0">レスポンシブ対応</p>
-              </span>
-            </span>
-            <img src="jp.jpg" alt="" width="100%" height="300" style="object-fit: cover;">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="jp2.jpg">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>通信講座のバーチャルプロジェクトにて</h2>
-                <p class="mb-0">レスポンシブ対応</p>
-            </span>
-            </span>
-            <img src="jp2.jpg" alt="" width="100%" height="300" style="object-fit: cover;">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="jp_top.jpg">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>通信講座のバーチャルプロジェクトにて</h2>
-                <p class="mb-0">レスポンシブ対応・ドロワーメニュー・ハンバーガーメニュー</p>
-              </span>
-            </span>
-            <img src="jp_top.jpg" alt="" width="100%" height="300" style="object-fit: cover;">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="sample.jpg">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>サンプルとして制作</h2>
-                <p class="mb-0">Bootstrap4使用・レスポンシブ対応</p>
-              </span>
-            </span>
-            <img src="sample.jpg" alt="" width="100%" height="300" style="object-fit: cover;">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="oibstoppage.jpg">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>OIBS様トップページ</h2>
-                <p class="mb-0">レスポンシブ対応</p>
-            </span>
-            </span>
-            <img src="oibstoppage.jpg" alt="" width="100%" height="300" style="object-fit: cover;">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="oibsichihara.jpg">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>OIBS様事業所ページ</h2>
-                <p class="mb-0">レスポンシブ対応</p>
-            </span>
-            </span>
-            <img src="oibsichihara.jpg" alt="" width="100%" height="300" style="object-fit: cover;">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="IMG_5977.jpg">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>企業様1</h2>
-                <p class="mb-0">ヘッダーデザイン1</p>
-            </span>
-            </span>
-            <img src="IMG_5977.jpg" alt="" width="100%" height="300" style="object-fit: cover;">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="IMG_5978.jpg">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>企業様2</h2>
-                <p class="mb-0">ヘッダーデザイン2</p>
-            </span>
-            </span>
-            <img src="IMG_5978.jpg" alt="" width="100%" height="300" style="object-fit: cover;">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="IMG_5979.jpg">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>企業様3</h2>
-                <p class="mb-0">ヘッダーデザイン3</p>
-            </span>
-            </span>
-            <img src="IMG_5979.jpg" alt="" width="100%" height="300" style="object-fit: cover;">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="IMG_5980.jpg">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>企業様4</h2>
-                <p class="mb-0">ヘッダーデザイン4</p>
-            </span>
-            </span>
-            <img src="IMG_5980.jpg" alt="" width="100%" height="300" style="object-fit: cover;">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="IMG_5981.jpg">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>企業様1</h2>
-                <p class="mb-0">バナーデザイン1</p>
-            </span>
-            </span>
-            <img src="IMG_5981.jpg" alt="" width="100%" height="300" style="object-fit: cover;">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="IMG_5982.jpg">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>企業様2</h2>
-                <p class="mb-0">バナーデザイン2</p>
-            </span>
-            </span>
-            <img src="IMG_5982.jpg" alt="" width="100%" height="300" style="object-fit: cover;">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<!-- Contact -->
-<section class="callout my-5" id="contact">
-    <div class="container text-center">
-      <h2 class="mx-auto mb-3 mb-5">Contact</h2>
-      <div id="formWrapper">
-        <div class="formtit"><p>お問い合わせ</p></div>
-        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdaFrIHhUEZ3xLfkIQfRKku-6tIzlslRzScfMo9-mOr0iHxVA/formResponse"  method="post" name="myForm" target="Iframe">
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address*</label>
-            <input type="email" name="emailAddress" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          <div class="works-item">
+            <div class="item-icon">
+              <img src="PC2.svg" class="pc-icon-2" alt="PCアイコン2" />
+            </div>
+            <div class="item-text">
+              <p>
+                テキストの変更や、表示崩れなどホームページで
+                ちょっとしたお困り事を解決いたします！
+              </p>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">name*</label>
-            <input type="name" name="entry.2005620554" class="form-control" id="exampleInputname1" placeholder="Name">
+          <div class="works-item">
+            <div class="item-icon">
+              <img src="WP.svg" class="wp-icon" alt="ワードプレスアイコン" />
+            </div>
+            <div class="item-text">
+              <p>
+                ワードプレスをもちいてのホームページ作成をいたします。<br />
+                あとから管理しやすい仕上がりを心がけます！
+              </p>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Textarea*</label>
-            <textarea class="form-control" name="entry.1049501601" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio padding" id="portfolio">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <p class="sub-title">ポートフォリオ</p>
+        <div class="portfolio-items">
+          <div class="flex">
+            <div class="portfolio-item-left">
+              <a href="jp_top.jpg"><img src="jp_top.jpg" alt="バーチャルプロジェクト1" /></a>
+            <p>通信講座/バーチャルプロジェクト1</p>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        <iframe name="dummyIframe" style="display:none;" onload="showThxMessage()"></iframe>
-    </div>
-
-      <div id="thxMessage" class="animated fadeIn" style="display:none;">
-      <div class="afterformtit">お問い合わせありがとうございました</div>
-      <div class="formtxt">ご記入いただいたメールアドレス <span style="color:#5B4E42; font-weight:bold;"></span> へ返信メールを送信させていただきますのでお待ちくださいませ。</div>
-      </div>
-
-        <!-- <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdaFrIHhUEZ3xLfkIQfRKku-6tIzlslRzScfMo9-mOr0iHxVA/formResponse"  method="post" name="myForm" target="dummyIframe">
-        <input class="form-content"  type="email" name="emailAddress" value="" autocomplete="email" placeholder="メールアドレス（必須）" required>
-        <input class="form-content" type="text" name="entry.2005620554" autocomplete="name" placeholder="お名前（必須）" required>
-        <textarea class="form-content" name="entry.1049501601" placeholder="お問い合わせ内容（必須）" required></textarea>
-      <div>
-          <input type="submit" value="送信">
-      </div>
-      </form>
-        <iframe name="dummyIframe" style="display:none;" onload="showThxMessage()"></iframe>
+          <div class="portfolio-item-right">
+            <a href="jp1.jpg"><img src="jp1.jpg" alt="バーチャルプロジェクト1" /></a>
+            <p>通信講座/バーチャルプロジェクト2</p>
+          </div>
         </div>
-        
-        <div id="thxMessage" class="animated fadeIn" style="display:none;">
-        <div class="afterformtit">お問い合わせありがとうございました</div>
-        <div class="formtxt">ご記入いただいたメールアドレス <span style="color:#5B4E42; font-weight:bold;"></span> へ自動返信メールを送信させていただく予定でしたがデモなので送りません。</div> -->
+        <div class="flex">
+          <div class="portfolio-item-left">
+            <a href="jp2.jpg"><img src="jp2.jpg" alt="バーチャルプロジェクト1" /></a>
+            <p>通信講座/バーチャルプロジェクト3</p>
+          </div>
+          <div class="portfolio-item-right">
+            <a href="sample.jpg"><img
+              src="sample.jpg" alt="ブートストラップで架空のサイト"/></a>
+              <p>Bootstrapで架空のサイト</p>
+          </div>
         </div>
-</div>
-</section>
+        <div class="flex">
+          <div class="portfolio-item-left">
+            <a href="oibstoppage.jpg"
+              ><img src="oibstoppage.jpg" alt="oibs様トップページ" /></a
+              >
+              <p>OIBS様トップページ</p>
+          </div>
+          <div class="portfolio-item-right">
+            <a href="oibsichihara.jpg"><img src="oibs2.jpg" alt="oibs様下層ページ" /></a>
+            <p>oibs様下層ページ</p>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="portfolio-item-left">
+            <a href="IMG_5977.jpg"><img src="IMG_5977.jpg" alt="ヘッダーデザイン1" /></a>
+            <p>ヘッダーデザイン1</p>
+          </div>
+          <div class="portfolio-item-right">
+            <a href="IMG_5978.jpg"><img src="IMG_5978.jpg" alt="ヘッダーデザイン2" /></a>
+            <p>ヘッダーデザイン2</p>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="portfolio-item-left">
+            <a href="IMG_5979.jpg"><img src="IMG_5979.jpg" alt="ヘッダーデザイン3" /></a>
+            <p>ヘッダーデザイン3</p>
+          </div>
+          <div class="portfolio-item-right">
+            <a href="IMG_5980.jpg"><img src="IMG_5980.jpg" alt="ヘッダーデザイン4" /></a>
+            <p>ヘッダーデザイン4</p>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="portfolio-item-left">
+            <a href="IMG_5981.jpg"><img src="IMG_5981.jpg" alt="バナーデザイン1" /></a>
+            <p>バナーデザイン1</p>
+          </div>
+          <div class="portfolio-item-right">
+            <a href="IMG_5982.jpg"><img src="IMG_5982.jpg" alt="バナーデザイン2" /></a>
+            <p>バナーデザイン2</p>
+          </div>
+        </div>
+        </div>
+    </section>
 
-<footer>
-<p class="text-muted text-center small mb-0 my-5">Copyright ©︎ Kumie portfolio 2019</p>
-</footer>
+    <section class="contact padding" id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="sub-title">お問い合わせ</p>
+        <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLScxaflP1Rq_XRz6gWbRuEnmQL1XPmmk1en1UF6LutaRQaK5Tg/formResponse" target="_self" method="POST" id="mG61Hd" jsmodel="TOfxwf Q91hve CEkLOc" data-shuffle-seed="2563894143435841880" data-response="%.@.[]]" data-first-entry="0" data-last-entry="5" data-is-first-page="true">
+            <div class="flex">
+              <div class="radio-flex">
+            <input type="radio" name="entry.227121682_sentinel" required value="ホームページ制作のご相談">
+            <p class="contact-item">ホームページ制作のご相談</p>
+          </div>
+          <div class="radio-flex">
+            <input type="radio" name="entry.227121682_sentinel" required value="ホームページ改修などのご相談">
+            <p class="contact-item">ホームページ改修などのご相談</p>
+          </div>
+            <div class="radio-flex">
+            <input type="radio" name="entry.227121682_sentinel" required value="WordPressに関するご相談">
+            <p class="contact-item">WordPressに関するご相談</p>
+          </div>
+            <div class="radio-flex">
+            <input type="radio" name="entry.227121682_sentinel" required value="その他">
+            <p class="contact-item">その他</p>
+          </div>
+        </div>
+          <label for="name">お名前</label>
+          <input
+            type="name"
+            name="entry.1220528543"
+            id="name"
+            placeholder="天王寺　璃奈" required
+          />
+        <label for="email">メールアドレス</label>
+          <input
+            type="email"
+            name="entry.2103896097"
+            id="email"
+            placeholder="example@mail.com" required
+          />
+        <label for="message">お問い合わせ内容</label>
+          <textarea name="entry.10830054" required></textarea>
+          <input type="submit" class="btn btn-register">
+          </form>
+          <p class="end-message">お問い合わせありがとうございました</p>
+          <p class="false-message">送信失敗です</p>
+      </div>
+    </section>
 
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded js-scroll-trigger col-xs-1" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
+    <footer>
+      <div class="container">
+        <p class="copyright">
+          Copyright(C) 2022 KumieMiyata ALL Rights Reserved.
+        </p>
+      </div>
+    </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="jquery.min.js"></script>
-  <script src="bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $(".toggle").click(function () {
+          $(this).toggleClass("active");
 
-  <!-- Plugin JavaScript -->
-  <script src="jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="stylish-portfolio.min.js"></script>
-
-  <!-- form -->
-  <script>
-    function showThxMessage(){
-       var email = document.myForm.emailAddress.value;
-       if(email !== ''){
-           var thxDiv = document.getElementById('thxMessage');
-           thxDiv.getElementsByTagName('span')[0].innerHTML = email;
-           document.myForm.reset();
-           document.getElementById('formWrapper').style.display = 'none';
-           thxDiv.style.display = 'block';
-       }
-    }
+          if ($(this).hasClass("active")) {
+            $(".gnav").addClass("active");
+          } else {
+            $(".gnav").removeClass("active");
+          }
+        });
+      });
+      $(function () {
+        $(".fadein").hide().fadeIn(2000);
+      });
     </script>
-</body>
+  </body>
 </html>
