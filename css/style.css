@@ -641,7 +641,7 @@ contact
 ===========================================*/
   .portfolio-items {
     width: 100%;
-    margin: auto;
+    margin-left: 0;
   }
 
   .portfolio-item-left,
@@ -668,7 +668,7 @@ contact
   /*==========================================
   contact
 ===========================================*/
-  .wrppaer {
+  .wrapper {
     text-align: center;
   }
 
@@ -698,6 +698,10 @@ contact
   .radio-flex {
     display: flex;
     justify-content: space-between;
+  }
+
+  .btn {
+    margin-top: 50px;
   }
 
   /*==========================================
