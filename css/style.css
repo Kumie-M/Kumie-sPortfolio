@@ -639,9 +639,14 @@ contact
   /*==========================================
   portfolio
 ===========================================*/
+
+  .wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
   .portfolio-items {
     width: 100%;
-    justify-content: center;
   }
 
   .portfolio-item-left,
