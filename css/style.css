@@ -683,6 +683,7 @@ contact
     display: block;
     width: 280px;
     margin: auto;
+    text-align: left;
   }
 
   .contact-item {
