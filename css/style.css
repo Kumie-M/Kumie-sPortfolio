@@ -639,6 +639,9 @@ contact
   /*==========================================
   portfolio
 ===========================================*/
+  .portfolio-items {
+    text-align: center;
+  }
 
   .portfolio-item-left,
   .portfolio-item-right {
@@ -650,7 +653,6 @@ contact
   .portfolio-item-right img {
     display: block;
     width: 300px;
-    margin: auto;
   }
 
   .portfolio-item-left p,
@@ -663,16 +665,20 @@ contact
   /*==========================================
   contact
 ===========================================*/
+  .wrppaer {
+    text-align: center;
+  }
 
   input[type="radio"] {
     display: block;
-    margin: 50px 0 auto 20px;
+    margin: 50px 0 auto 10px;
     width: 10%;
   }
 
   input[type="name"],
   input[type="email"],
   textarea {
+    display: block;
     width: 300px;
     margin: auto;
     text-align: center;
