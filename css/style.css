@@ -645,8 +645,8 @@ contact
 ===========================================*/
 
   .wrapper {
-    max-width: 300px;
-    margin: 0 auto;
+    max-width: 290px;
+    margin: 0 auto 0 -10px;
   }
 
   .portfolio-items {
