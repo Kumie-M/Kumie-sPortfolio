@@ -643,7 +643,7 @@ contact
   .portfolio-item-left,
   .portfolio-item-right {
     display: block;
-    text-align: center;
+    width: 100%;
   }
 
   .portfolio-item-left img,
@@ -674,6 +674,7 @@ contact
   input[type="email"],
   textarea {
     width: 300px;
+    margin: auto;
     text-align: center;
   }
 
